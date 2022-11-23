@@ -2,8 +2,8 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 const Logo = styled.div`
-  margin-left: 130px;
-  font-size: 36px;
+  margin-left: 8.125rem;
+  font-size: 2.25rem;
   text-decoration: none;
   color: #dff6ff;
 `;
@@ -11,8 +11,8 @@ const Logo = styled.div`
 export default Logo;
 
 // export const Logo = styled(Link)`
-//   margin-left: 130px;
-//   font-size: 36px;
+//   margin-left: 8.125rem;
+//   font-size: 2.25rem;
 //   text-decoration: none;
 //   color: #dff6ff;
 // `;

@@ -1,11 +1,10 @@
 import SectionHeadline from "../components/SectionHeadline";
 import Wrapper from "../components/Wrapper";
-import {
-  AboutMePageWrapper,
-  AboutMeText,
-  AboutMeParagraph,
-  SelfPortrait,
-} from "../components/styledAboutMePage";
+import AboutMePageWrapper from "../components/aboutMePageComponents/AboutMePageWrapper";
+import AboutMeText from "../components/aboutMePageComponents/AboutMeText";
+import AboutMeParagraph from "../components/aboutMePageComponents/AboutMeParagraph";
+import SelfPortrait from "../components/aboutMePageComponents/SelfPortrait";
+
 
 const AboutMePage = () => {
   return (

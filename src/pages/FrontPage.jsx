@@ -1,4 +1,5 @@
-import { FrontPageWrapper, FrontPageH1 } from "../components/styledFrontPage";
+import FrontPageWrapper from "../components/frontPageComponents/FrontPageWrapper";
+import FrontPageH1 from "../components/frontPageComponents/FrontPageH1";
 
 const FrontPage = () => {
   return (
