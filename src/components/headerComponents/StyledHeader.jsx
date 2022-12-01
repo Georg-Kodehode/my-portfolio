@@ -6,10 +6,16 @@ const StyledHeader = styled.header`
   min-height: 5rem;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   font-size: 1.25rem;
   position: fixed;
+
+  .header-content-wrapper {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
 `;
 
 export default StyledHeader;

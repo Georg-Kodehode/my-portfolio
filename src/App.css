@@ -1,7 +1,5 @@
 .App {
   text-align: center;
-  min-height: 100vh; /*Georg la til dette*/
-  box-sizing: border-box; /*Georg la til dette*/
 }
 
 .App-logo {

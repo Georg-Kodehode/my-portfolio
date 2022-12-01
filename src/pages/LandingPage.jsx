@@ -7,10 +7,13 @@ import AboutMePage from "./AboutMePage";
 import ProjectsPage from "./ProjectsPage";
 import SkillsPage from "./SkillsPage";
 
+import ScrollToTop from "../components/ScrollToTop";
+
 const LandingPage = () => {
   return (
     <>
       <Header />
+      <ScrollToTop />
       <Routes>
         <Route path="*" element={<FrontPage />} />
         <Route path="/about-me" element={<AboutMePage />} />

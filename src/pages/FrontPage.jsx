@@ -4,13 +4,15 @@ import FrontPageH1 from "../components/frontPageComponents/FrontPageH1";
 const FrontPage = () => {
   return (
     <FrontPageWrapper>
-      <FrontPageH1>
-        Hei! Mitt navn er Georg,
-        <br />
-        og jeg er en full stack
-        <br />
-        utvikler.
-      </FrontPageH1>
+      <div className="main-content-wrapper">
+        <FrontPageH1>
+          Hei! Mitt navn er Georg,
+          <br />
+          og jeg er en full stack
+          <br />
+          utvikler.
+        </FrontPageH1>
+      </div>
     </FrontPageWrapper>
   );
 };

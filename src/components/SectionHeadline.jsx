@@ -4,7 +4,7 @@ const SectionHeadline = styled.h1`
   font-weight: 500;
   font-size: 3rem;
   text-align: left;
-  padding: 2rem 0;
+  padding: 0 0 1rem 0;
   margin: 0;
 `;
 

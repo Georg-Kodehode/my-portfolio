@@ -5,7 +5,13 @@ const FrontPageWrapper = styled.div`
   height: 40rem;
   background-color: #06283d;
   box-sizing: border-box;
-  padding: 13.125rem 8.125rem 8.125rem 8.125rem;
+  padding: 13.125rem 0 8.125rem 0;
+  display: flex;
+  justify-content: center;
+
+  .main-content-wrapper {
+    width: 80%;
+  }
 `;
 
 export default FrontPageWrapper;

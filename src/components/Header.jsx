@@ -17,46 +17,48 @@ let activeClassName = "underline";
 const Header = () => {
   return (
     <StyledHeader>
-      <StyledLink to={"*"}>
-        <Logo>G</Logo>
-      </StyledLink>
-      <StyledNav>
-        <StyledUl>
-          <StyledLi>
-            <StyledNavLink
-              to="about-me"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
-            >
-              Om meg
-            </StyledNavLink>
-            {/* <StyledLink to={"/about-me"}>Om meg</StyledLink> */}
-          </StyledLi>
-          <StyledLi>
-            <StyledNavLink
-              to={"/cv"}
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
-            >
-              CV
-            </StyledNavLink>
-          </StyledLi>
-          <StyledLi>
-            <StyledNavLink
-              to={"/projects"}
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
-            >
-              Prosjekter
-            </StyledNavLink>
-          </StyledLi>
-          <StyledLi>
-            <StyledNavLink
-              to={"*"}
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
-            >
-              Kontakt
-            </StyledNavLink>
-          </StyledLi>
-        </StyledUl>
-      </StyledNav>
+      <div className="header-content-wrapper">
+        <StyledLink to={"*"}>
+          <Logo>G</Logo>
+        </StyledLink>
+        <StyledNav>
+          <StyledUl>
+            <StyledLi>
+              <StyledNavLink
+                to="about-me"
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              >
+                Om meg
+              </StyledNavLink>
+              {/* <StyledLink to={"/about-me"}>Om meg</StyledLink> */}
+            </StyledLi>
+            <StyledLi>
+              <StyledNavLink
+                to={"/cv"}
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              >
+                CV
+              </StyledNavLink>
+            </StyledLi>
+            <StyledLi>
+              <StyledNavLink
+                to={"/projects"}
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              >
+                Prosjekter
+              </StyledNavLink>
+            </StyledLi>
+            <StyledLi>
+              <StyledNavLink
+                to={"*"}
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              >
+                Kontakt
+              </StyledNavLink>
+            </StyledLi>
+          </StyledUl>
+        </StyledNav>
+      </div>
     </StyledHeader>
   );
 };
