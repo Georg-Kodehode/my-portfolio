@@ -18,10 +18,14 @@ const Wrapper = styled.div`
     .projects-wrapper > *,
     .main-content-wrapper a,
     .projects-wrapper div div div {
-      //background-color: lightblue;
       display: flex;
       justify-content: center;
     }
+  }
+
+  @media only screen and (max-width: 990px) {
+    //300px = 18.75rem
+    padding-top: 18.75rem;
   }
 `;
 

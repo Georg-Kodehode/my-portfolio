@@ -8,7 +8,7 @@ import ProjectData from "./ProjectData";
 
 let projects = ProjectData.map((project) => {
   return (
-    <ProjectSingle>
+    <ProjectSingle key={project.key}>
       <ProjectHeading href={project.siteLink} target="_blank">
         {project.name}
       </ProjectHeading>
@@ -31,8 +31,6 @@ let projects = ProjectData.map((project) => {
     </ProjectSingle>
   );
 });
-
-console.log(projects);
 
 const Projects = () => {
   return projects;

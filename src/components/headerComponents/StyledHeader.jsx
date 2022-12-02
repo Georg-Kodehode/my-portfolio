@@ -16,6 +16,19 @@ const StyledHeader = styled.header`
     display: flex;
     justify-content: space-between;
   }
+
+  @media only screen and (max-width: 990px) {
+    .header-content-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+    .header-content-wrapper nav {
+      justify-content: center;
+    }
+    .header-content-wrapper ul {
+      flex-direction: column;
+    }
+  }
 `;
 
 export default StyledHeader;

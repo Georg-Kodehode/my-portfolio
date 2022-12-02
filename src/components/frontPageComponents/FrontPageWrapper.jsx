@@ -12,6 +12,12 @@ const FrontPageWrapper = styled.div`
   .main-content-wrapper {
     width: 80%;
   }
+
+  @media only screen and (max-width: 990px) {
+    //300px = 18.75rem
+    padding-top: 18.75rem;
+    height: initial;
+  }
 `;
 
 export default FrontPageWrapper;
