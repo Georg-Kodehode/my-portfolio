@@ -3,7 +3,7 @@ import styled from "styled-components";
 const SelfPortrait = styled.img`
   min-width: 20rem;
   max-width: 25rem;
-  align-self: flex-start;
+  align-self: center;
   margin: 0 0 0 30px;
   display: inline-block;
   box-sizing: border-box;

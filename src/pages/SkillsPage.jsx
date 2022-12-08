@@ -5,6 +5,7 @@ import Skill from "../components/skillsPageComponents/Skill";
 import SkillsCategory from "../components/skillsPageComponents/SkillsCategory";
 import SkillList from "../components/skillsPageComponents/SkillList";
 import ProjectLink from "../components/ProjectLink";
+import Push from "../components/Push";
 
 import cv from "../documents/Git_commands.pdf";
 
@@ -79,6 +80,7 @@ const SkillsPage = () => {
           &nbsp;&nbsp;CV
         </ProjectLink>
       </div>
+      <Push></Push>
     </Wrapper>
   );
 };

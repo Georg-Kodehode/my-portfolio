@@ -4,6 +4,7 @@ import AboutMePageWrapper from "../components/aboutMePageComponents/AboutMePageW
 import AboutMeText from "../components/aboutMePageComponents/AboutMeText";
 import AboutMeParagraph from "../components/aboutMePageComponents/AboutMeParagraph";
 import SelfPortrait from "../components/aboutMePageComponents/SelfPortrait";
+import Push from "../components/Push";
 
 const AboutMePage = () => {
   return (
@@ -37,6 +38,7 @@ const AboutMePage = () => {
           <SelfPortrait src={require("../images/self_portrait.PNG")} />
         </AboutMePageWrapper>
       </div>
+      <Push></Push>
     </Wrapper>
   );
 };

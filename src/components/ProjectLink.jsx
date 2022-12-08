@@ -20,8 +20,8 @@ const ProjectLink = styled.a`
     border-color: #47b5ff;
   }
 
-  &:hover svg path,
-  &:focus svg path {
+  &:hover svg,
+  &:focus svg {
     fill: #47b5ff;
   }
 `;

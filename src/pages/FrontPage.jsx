@@ -1,5 +1,6 @@
 import FrontPageWrapper from "../components/frontPageComponents/FrontPageWrapper";
 import FrontPageH1 from "../components/frontPageComponents/FrontPageH1";
+import Push from "../components/Push";
 
 const FrontPage = () => {
   return (
@@ -13,6 +14,7 @@ const FrontPage = () => {
           utvikler.
         </FrontPageH1>
       </div>
+      <Push></Push>
     </FrontPageWrapper>
   );
 };

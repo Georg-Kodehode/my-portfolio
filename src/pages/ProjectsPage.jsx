@@ -2,6 +2,7 @@ import SectionHeadline from "../components/SectionHeadline";
 import Wrapper from "../components/Wrapper";
 import ProjectsAll from "../components/projectsPageComponents/ProjectsAll";
 import Projects from "../components/projectsPageComponents/Projects";
+import Push from "../components/Push";
 
 const ProjectsPage = () => {
   return (
@@ -12,6 +13,7 @@ const ProjectsPage = () => {
           <Projects></Projects>
         </ProjectsAll>
       </div>
+      <Push></Push>
     </Wrapper>
   );
 };

@@ -5,7 +5,7 @@ const ProjectHeading = styled.a`
   font-weight: 400;
   font-size: 1.5rem;
   margin: 0.75rem 0;
-  display: block;
+  display: inline-block;
   text-decoration: none;
   color: #06283d;
   &:hover {

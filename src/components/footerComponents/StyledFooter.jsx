@@ -6,8 +6,6 @@ const StyledFooter = styled.footer`
   display: flex;
   align-items: center;
   justify-content: center;
-  // padding: 0 8.125rem;
-  // margin: 0 auto;
   font-size: 1.25rem;
   min-height: 6.5625rem;
 
