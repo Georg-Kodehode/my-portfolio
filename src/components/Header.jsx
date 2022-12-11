@@ -36,7 +36,6 @@ const Header = () => {
               >
                 Om meg
               </NavLink>
-              {/* <StyledLink to={"/about-me"}>Om meg</StyledLink> */}
             </StyledLi>
             <StyledLi>
               <NavLink

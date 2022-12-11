@@ -9,7 +9,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Georg la til dette (mellom kommentarene) */
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -22,7 +21,6 @@ body {
   height: 100%;
   width: 100%;
 }
-/* Georg la til dette (mellom kommentarene) */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

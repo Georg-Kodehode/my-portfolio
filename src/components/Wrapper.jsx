@@ -17,6 +17,10 @@ const Wrapper = styled.div`
     width: 80%;
   }
 
+  #contact-headline {
+    text-align: center;
+  }
+
   @media only screen and (max-width: 1315px) {
     .projects-wrapper > *,
     .main-content-wrapper a,
@@ -27,8 +31,12 @@ const Wrapper = styled.div`
   }
 
   @media only screen and (max-width: 990px) {
-    padding: 18.75rem 0 23.875rem 0;
-    margin-bottom: -20rem;
+    // with phone number:
+    // padding: 18.75rem 0 23.875rem 0;
+    // margin-bottom: -20rem;
+    // without phone number:
+    padding: 18.75rem 0 19.125rem 0;
+    margin-bottom: -16rem;
   }
 `;
 

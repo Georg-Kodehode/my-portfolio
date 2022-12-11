@@ -16,8 +16,12 @@ const FrontPageWrapper = styled.div`
   }
 
   @media only screen and (max-width: 990px) {
-    padding: 18.75rem 0 23.875rem 0;
-    margin-bottom: -20rem;
+    // with phone number:
+    // padding: 18.75rem 0 23.875rem 0;
+    // margin-bottom: -20rem;
+    // without phone number:
+    padding: 18.75rem 0 19.125rem 0;
+    margin-bottom: -16rem;
     height: initial;
     h1 {
       text-align: center;

@@ -18,6 +18,7 @@ const StyledHeader = styled.header`
   }
 
   @media only screen and (max-width: 990px) {
+    position: absolute;
     .header-content-wrapper {
       flex-direction: column;
       align-items: center;

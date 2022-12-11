@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 const ContactPageWrapper = styled.div`
   min-height: 18.75rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 
   .contact-info-div {
     width: 50%;
@@ -14,7 +17,7 @@ const ContactPageWrapper = styled.div`
   }
   .contact-info-div .contact-links-wrapper {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     gap: 1rem;
   }
   .contact-info-div p {

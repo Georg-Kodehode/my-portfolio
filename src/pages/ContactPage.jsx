@@ -7,15 +7,15 @@ const ContactPage = () => {
   return (
     <Wrapper>
       <div className="main-content-wrapper projects-wrapper">
-        <SectionHeadline>Kontakt</SectionHeadline>
+        <SectionHeadline id="contact-headline">Kontakt</SectionHeadline>
         <ContactPageWrapper>
           <div className="contact-info-div">
             <p>E-post: georg.kodehode@gmail.com</p>
-            <p>Mobil: 555 55 555</p>
+            {/* <p>Mobil: 555 55 555</p> */}
             <div className="contact-links-wrapper">
               <p>
                 <a
-                  href="https://www.google.com/"
+                  href="https://www.linkedin.com/in/georg-stava-9171a248/"
                   target="_blank"
                   rel="noreferrer"
                   className="contact-website-name-link"
