@@ -7,7 +7,7 @@ import SkillList from "../components/skillsPageComponents/SkillList";
 import ProjectLink from "../components/ProjectLink";
 import Push from "../components/Push";
 
-import cv from "../documents/Git_commands.pdf";
+import cv from "../documents/CV_Georg_Stava.pdf";
 
 const SkillsPage = () => {
   return (
