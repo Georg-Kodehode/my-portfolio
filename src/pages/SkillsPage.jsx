@@ -39,7 +39,8 @@ const SkillsPage = () => {
           <Skill>
             <SkillsCategory>Software:</SkillsCategory>
             <SkillList>
-              Visual Studio Code, Figma, GitHub, AutoCAD, Microsoft 365, Revit
+              Visual Studio Code, Figma, GitHub, AutoCAD, Microsoft Office,
+              Revit
             </SkillList>
           </Skill>
           <Skill>
