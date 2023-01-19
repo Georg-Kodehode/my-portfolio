@@ -11,6 +11,14 @@ const ProjectData = [
   },
   {
     key: 1,
+    name: "Digitalt visittkort",
+    image: ProjectImages.digitalBusinessCard,
+    githubLink: "https://github.com/Georg-Kodehode/digital-business-card",
+    siteLink: "https://georg-kodehode.github.io/digital-business-card/",
+    description: "Et digitalt visittkort.",
+  },
+  {
+    key: 2,
     name: "Fargepalett generator",
     image: ProjectImages.colorSchemeGenerator,
     githubLink: "https://github.com/Georg-Kodehode/color-scheme-generator",
@@ -18,7 +26,7 @@ const ProjectData = [
     description: "Generer en fargepalett basert på en farge valgt av brukeren.",
   },
   {
-    key: 2,
+    key: 3,
     name: "Film watchlist",
     image: ProjectImages.movieWatchlist,
     githubLink: "https://github.com/Georg-Kodehode/movie-watchlist",
@@ -27,7 +35,16 @@ const ProjectData = [
       "En watchlist for filmer, serier og spill, som bruker local storage.",
   },
   {
-    key: 3,
+    key: 4,
+    name: "Juleside",
+    image: ProjectImages.countdownToChristmas,
+    githubLink: "https://github.com/Georg-Kodehode/countdown-to-christmas",
+    siteLink: "https://georg-kodehode.github.io/countdown-to-christmas/",
+    description:
+      "En jule-nettside som teller ned til jul. Nettsiden lar også brukeren skrive julehilsener som lagres i local storage.",
+  },
+  {
+    key: 5,
     name: "Parallax nettside",
     image: ProjectImages.parallaxSite,
     githubLink:
@@ -37,7 +54,7 @@ const ProjectData = [
     description: "En parallax nettside.",
   },
   {
-    key: 4,
+    key: 6,
     name: "Passordgenerator",
     image: ProjectImages.passwordGenerator,
     githubLink: "https://github.com/Georg-Kodehode/password-generator",
@@ -46,7 +63,7 @@ const ProjectData = [
       "En applikasjon som genererer passord på minimum 15 tegn. Passordet må inkludere tall og spesialtegn.",
   },
   {
-    key: 5,
+    key: 7,
     name: "Pokédex",
     image: ProjectImages.pokedex,
     githubLink: "https://github.com/Georg-Kodehode/pokedex",
@@ -55,7 +72,7 @@ const ProjectData = [
       "En Pokédex som lister opp alle Pokémon som finnes i pokeapi API-en, og lar deg søke etter Pokémon.",
   },
   {
-    key: 6,
+    key: 8,
     name: "Solsystem nettside",
     image: ProjectImages.solarSystemSite,
     githubLink: "https://github.com/Georg-Kodehode/hoestoppgave-haugesund-c",
@@ -64,7 +81,7 @@ const ProjectData = [
       "En gruppeoppgave der vi brukte en API til å lage en nettside om solsystemet.",
   },
   {
-    key: 7,
+    key: 9,
     name: "Figma - streaming nettside",
     image: ProjectImages.figmaStreamingSite,
     githubLink: "",
@@ -76,7 +93,7 @@ const ProjectData = [
       "En enkel versjon av Netflix gjenskapt i Figma. Figmasiden inkluderer tre carousel-er og en dropdown meny",
   },
   {
-    key: 8,
+    key: 10,
     name: "Figma - Tripletex nettside",
     image: ProjectImages.figmaTripletexSite,
     githubLink: "",

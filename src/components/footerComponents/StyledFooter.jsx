@@ -25,6 +25,11 @@ const StyledFooter = styled.footer`
     display: none;
   }
 
+  .mail-link {
+    color: #dff6ff;
+    text-decoration: none;
+  }
+
   @media only screen and (max-width: 990px) {
     .footer-content-wrapper {
       flex-direction: column;
