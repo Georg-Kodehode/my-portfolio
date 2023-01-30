@@ -73,6 +73,14 @@ const ProjectData = [
   },
   {
     key: 8,
+    name: "Reisedagbok",
+    image: ProjectImages.travelJournal,
+    githubLink: "https://github.com/Georg-Kodehode/travel-journal",
+    siteLink: "https://georg-kodehode.github.io/travel-journal/",
+    description: "En reisedagbok nettside.",
+  },
+  {
+    key: 9,
     name: "Solsystem nettside",
     image: ProjectImages.solarSystemSite,
     githubLink: "https://github.com/Georg-Kodehode/hoestoppgave-haugesund-c",
@@ -81,7 +89,7 @@ const ProjectData = [
       "En gruppeoppgave der vi brukte en API til å lage en nettside om solsystemet.",
   },
   {
-    key: 9,
+    key: 10,
     name: "Figma - streaming nettside",
     image: ProjectImages.figmaStreamingSite,
     githubLink: "",
@@ -93,7 +101,7 @@ const ProjectData = [
       "En enkel versjon av Netflix gjenskapt i Figma. Figmasiden inkluderer tre carousel-er og en dropdown meny",
   },
   {
-    key: 10,
+    key: 11,
     name: "Figma - Tripletex nettside",
     image: ProjectImages.figmaTripletexSite,
     githubLink: "",
