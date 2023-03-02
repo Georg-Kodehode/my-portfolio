@@ -10,6 +10,7 @@ const StyledLi = styled.li`
 
   @media only screen and (max-width: 990px) {
     height: 48px;
+    width: unset;
     a {
       width: 100%;
       text-align: center;

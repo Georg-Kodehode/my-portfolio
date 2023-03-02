@@ -21,6 +21,10 @@ const StyledNav = styled.nav`
       color: #47b5ff;
     }
   }
+
+  @media only screen and (max-width: 990px) {
+    width: unset;
+  }
 `;
 
 export default StyledNav;

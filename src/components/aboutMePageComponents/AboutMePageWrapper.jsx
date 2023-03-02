@@ -10,6 +10,7 @@ const AboutMePageWrapper = styled.div`
     flex-direction: column;
     img {
       margin: 0;
+      max-width: 20rem;
     }
     div {
       width: 100%;

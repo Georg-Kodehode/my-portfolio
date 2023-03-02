@@ -15,6 +15,11 @@ const SkillsPageWrapper = styled.div`
     }
     overflow: scroll;
   }
+  @media only screen and (max-width: 445px) {
+    h1 {
+      font-size: 2rem;
+    }
+  }
 `;
 
 export default SkillsPageWrapper;
