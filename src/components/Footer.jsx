@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <StyledFooter>
       <div className="footer-content-wrapper">
-        <p>Georg Stava - 2022</p>
+        <p>Georg Stava - 2023</p>
         <ContactWrapper className="contact-methods">
           {/* <AlignFooter>
             <svg
