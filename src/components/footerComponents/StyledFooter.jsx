@@ -29,6 +29,10 @@ const StyledFooter = styled.footer`
     color: #dff6ff;
     text-decoration: none;
   }
+  .mail-link:hover,
+  .mail-link:focus{
+    color: #47b5ff;
+  }
 
   @media only screen and (max-width: 990px) {
     .footer-content-wrapper {
