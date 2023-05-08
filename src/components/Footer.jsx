@@ -1,15 +1,12 @@
 import StyledFooter from "../components/footerComponents/StyledFooter";
-import ContactWrapper from "../components/footerComponents/ContactWrapper";
-import ContactSeparator from "./footerComponents/ContactSeparator";
-import AlignFooter from "./footerComponents/AlignFooter";
 
 const Footer = () => {
   return (
     <StyledFooter>
       <div className="footer-content-wrapper">
         <p>&copy; Georg Stava - 2023</p>
-        <ContactWrapper className="contact-methods">
-          {/* <AlignFooter>
+        <div className="contact-wrapper">
+          {/* <p className="align-footer">
             <svg
               height="24px"
               width="24px"
@@ -23,9 +20,9 @@ const Footer = () => {
               />
             </svg>
             &nbsp;555 55 555&nbsp;
-          </AlignFooter>
-          <ContactSeparator className="contact-separator">|</ContactSeparator> */}
-          <AlignFooter>
+          </p>
+          <p className="contact-separator">|</p> */}
+          <p className="align-footer">
             &nbsp;
             <svg
               height="24px"
@@ -44,9 +41,9 @@ const Footer = () => {
               georg.kodehode@gmail.com
             </a>
             &nbsp;
-          </AlignFooter>
-          <ContactSeparator className="contact-separator">|</ContactSeparator>
-          <AlignFooter>
+          </p>
+          <p className="contact-separator">|</p>
+          <p className="align-footer">
             &nbsp;
             <a
               href="https://www.linkedin.com/in/georg-stava-9171a248/"
@@ -69,9 +66,9 @@ const Footer = () => {
               <span className="contact-website-name">LinkedIn</span>
             </a>
             &nbsp;
-          </AlignFooter>
-          <ContactSeparator className="contact-separator">|</ContactSeparator>
-          <AlignFooter>
+          </p>
+          <p className="contact-separator">|</p>
+          <p className="align-footer">
             &nbsp;
             <a
               href="https://github.com/Georg-Kodehode"
@@ -93,8 +90,8 @@ const Footer = () => {
               </svg>
               <span className="contact-website-name">GitHub</span>
             </a>
-          </AlignFooter>
-        </ContactWrapper>
+          </p>
+        </div>
       </div>
     </StyledFooter>
   );

@@ -1,14 +1,14 @@
 import SectionHeadline from "../components/SectionHeadline";
 import Wrapper from "../components/Wrapper";
 import Push from "../components/Push";
-import ContactPageWrapper from "../components/contactPageComponents/ContactPageWrapper";
+import StyledContactPage from "../components/contactPageComponents/StyledContactPage";
 
 const ContactPage = () => {
   return (
     <Wrapper>
       <div className="main-content-wrapper projects-wrapper">
         <SectionHeadline id="contact-headline">Kontakt</SectionHeadline>
-        <ContactPageWrapper>
+        <StyledContactPage>
           <div className="contact-info-div">
             <p>E-post: georg.kodehode@gmail.com</p>
             {/* <p>Mobil: 555 55 555</p> */}
@@ -63,7 +63,7 @@ const ContactPage = () => {
               </p>
             </div>
           </div>
-        </ContactPageWrapper>
+        </StyledContactPage>
       </div>
       <Push></Push>
     </Wrapper>

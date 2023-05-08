@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const ContactPageWrapper = styled.div`
+const StyledContactPage = styled.div`
   min-height: 18.75rem;
   text-align: center;
   display: flex;
@@ -44,4 +44,4 @@ const ContactPageWrapper = styled.div`
   }
 `;
 
-export default ContactPageWrapper;
+export default StyledContactPage;

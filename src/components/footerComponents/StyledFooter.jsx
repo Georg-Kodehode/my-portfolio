@@ -34,6 +34,29 @@ const StyledFooter = styled.footer`
     color: #47b5ff;
   }
 
+  .align-footer{
+    display: flex;
+    align-items: center;
+
+    &:hover svg path,
+    &:focus svg path {
+      fill: #47b5ff;
+    }
+    &:hover span,
+    &:focus span, {
+      color: #47b5ff;
+    }
+  }
+
+  .contact-separator{
+    margin-top: 1.0625rem;
+  }
+
+  .contact-wrapper{
+    display: flex;
+    font-weight: bold;
+  }
+
   @media only screen and (max-width: 990px) {
     .footer-content-wrapper {
       flex-direction: column;
@@ -44,7 +67,7 @@ const StyledFooter = styled.footer`
     .contact-separator {
       display: none;
     }
-    .contact-methods {
+    .contact-wrapper {
       flex-direction: column;
       align-items: center;
     }
