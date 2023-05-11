@@ -1,21 +1,20 @@
-import FrontPageWrapper from "../components/frontPageComponents/FrontPageWrapper";
-import FrontPageH1 from "../components/frontPageComponents/FrontPageH1";
+import StyledFrontPage from "../components/frontPageComponents/StyledFrontPage";
 import Push from "../components/Push";
 
 const FrontPage = () => {
   return (
-    <FrontPageWrapper>
+    <StyledFrontPage>
       <div className="main-content-wrapper">
-        <FrontPageH1>
+        <h1 className="front-page-h1">
           Hei! Mitt navn er Georg,
           <br />
           og jeg er en full stack
           <br />
           utvikler.
-        </FrontPageH1>
+        </h1>
       </div>
       <Push></Push>
-    </FrontPageWrapper>
+    </StyledFrontPage>
   );
 };
 

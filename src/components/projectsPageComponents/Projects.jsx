@@ -1,18 +1,13 @@
-import ProjectSingle from "./ProjectSingle";
-import ProjectHeading from "./ProjectHeading";
-import ProjectBox from "./ProjectBox";
-import ProjectLinksWrapper from "./ProjectLinksWrapper";
-import ProjectLinksComponent from "../../components/ProjectLinksComponent";
+import ProjectLinks from "../ProjectLinks";
 import ProjectData from "./ProjectData";
-import ProjectDescription from "./ProjectDescription";
 
 let projects = ProjectData.map((project) => {
   return (
-    <ProjectSingle key={project.key}>
-      <ProjectHeading href={project.siteLink} target="_blank" rel="noreferrer">
+    <div className="project-single" key={project.key}>
+      <a className="project-heading" href={project.siteLink} target="_blank" rel="noreferrer">
         {project.name}
-      </ProjectHeading>
-      <ProjectBox className="project-box">
+      </a>
+      <div className="project-box">
         <a href={project.siteLink} target="_blank" rel="noreferrer">
           <img
             src={project.image}
@@ -21,18 +16,18 @@ let projects = ProjectData.map((project) => {
             height="100%"
           />
         </a>
-      </ProjectBox>
-      <ProjectDescription>{project.description}</ProjectDescription>
-      <ProjectLinksWrapper>
-        <ProjectLinksComponent
+      </div>
+      <p className="project-description">{project.description}</p>
+      <div className="project-links-wrapper">
+        <ProjectLinks
           props={{
             figmaLink: project.figmaLink,
             githubLink: project.githubLink,
             siteLink: project.siteLink,
           }}
-        ></ProjectLinksComponent>
-      </ProjectLinksWrapper>
-    </ProjectSingle>
+        ></ProjectLinks>
+      </div>
+    </div>
   );
 });
 

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const FrontPageWrapper = styled.div`
+const StyledFrontPage = styled.div`
   width: 100%;
   height: 40rem;
   min-height: 100vh;
@@ -15,6 +15,14 @@ const FrontPageWrapper = styled.div`
     width: 80%;
   }
 
+  .front-page-h1{
+    margin: 0;
+    font-weight: 500;
+    font-size: 3rem;
+    text-align: left;
+    color: #47b5ff;
+  }
+
   @media only screen and (max-width: 990px) {
     // with phone number:
     // padding: 18.75rem 0 23.875rem 0;
@@ -23,10 +31,10 @@ const FrontPageWrapper = styled.div`
     padding: 18.75rem 0 19.125rem 0;
     margin-bottom: -16rem;
     height: initial;
-    h1 {
+    .front-page-h1 {
       text-align: center;
     }
   }
 `;
 
-export default FrontPageWrapper;
+export default StyledFrontPage;

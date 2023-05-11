@@ -1,10 +1,6 @@
 import StyledHeader from "../components/headerComponents/StyledHeader";
-import StyledNav from "../components/headerComponents/StyledNav";
-import StyledUl from "../components/headerComponents/StyledUl";
-import StyledLink from "../components/headerComponents/StyledLink";
-import StyledLi from "../components/headerComponents/StyledLi";
 import Logo from "./Logo";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 let activeStyle = {
   color: "#47b5ff",
@@ -23,12 +19,12 @@ const Header = () => {
   return (
     <StyledHeader>
       <div className="header-content-wrapper">
-        <StyledLink to={"*"}>
+        <Link to={"*"} className="styled-link">
           <Logo>G</Logo>
-        </StyledLink>
-        <StyledNav>
-          <StyledUl>
-            <StyledLi>
+        </Link>
+        <nav className="styled-nav">
+          <ul className="styled-ul">
+            <li className="styled-li">
               <NavLink
                 to="about-me"
                 style={({ isActive }) => (isActive ? activeStyle : undefined)}
@@ -36,8 +32,8 @@ const Header = () => {
               >
                 Om meg
               </NavLink>
-            </StyledLi>
-            <StyledLi>
+            </li>
+            <li className="styled-li">
               <NavLink
                 to="cv"
                 style={({ isActive }) => (isActive ? activeStyle : undefined)}
@@ -45,8 +41,8 @@ const Header = () => {
               >
                 CV
               </NavLink>
-            </StyledLi>
-            <StyledLi>
+            </li>
+            <li className="styled-li">
               <NavLink
                 to="projects"
                 style={({ isActive }) => (isActive ? activeStyle : undefined)}
@@ -54,8 +50,8 @@ const Header = () => {
               >
                 Prosjekter
               </NavLink>
-            </StyledLi>
-            <StyledLi>
+            </li>
+            <li className="styled-li">
               <NavLink
                 to={"contact"}
                 style={({ isActive }) => (isActive ? activeStyle : undefined)}
@@ -63,9 +59,9 @@ const Header = () => {
               >
                 Kontakt
               </NavLink>
-            </StyledLi>
-          </StyledUl>
-        </StyledNav>
+            </li>
+          </ul>
+        </nav>
       </div>
     </StyledHeader>
   );
