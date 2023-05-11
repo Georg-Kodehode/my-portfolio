@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const SkillsPageWrapper = styled.div`
+const StyledSkillsPage = styled.div`
   min-height: 39.5rem;
   box-sizing: border-box;
   margin: 0 0 0.5625rem 0;
@@ -8,6 +8,17 @@ const SkillsPageWrapper = styled.div`
   color: #47b5ff;
   padding: 2.5rem;
   border: 5px solid #47b5ff;
+  
+  .skill-list{
+    text-align: left;
+    margin: 0 0 0 3.125rem;
+  }
+
+  .skills-category{
+    text-align: left;
+    margin: 0.5625rem 0;
+  }
+
   @media only screen and (max-width: 990px) {
     padding: 1rem;
     p {
@@ -22,4 +33,4 @@ const SkillsPageWrapper = styled.div`
   }
 `;
 
-export default SkillsPageWrapper;
+export default StyledSkillsPage;

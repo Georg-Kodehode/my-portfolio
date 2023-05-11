@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const ProjectLink = styled.a`
+const StyledLink = styled.a`
   background-color: #06283d;
   color: #dff6ff;
   width: 7.5rem;
@@ -26,4 +26,4 @@ const ProjectLink = styled.a`
   }
 `;
 
-export default ProjectLink;
+export default StyledLink;

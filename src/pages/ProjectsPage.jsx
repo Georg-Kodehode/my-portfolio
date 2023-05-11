@@ -1,6 +1,6 @@
 import SectionHeadline from "../components/SectionHeadline";
 import Wrapper from "../components/Wrapper";
-import ProjectsAll from "../components/projectsPageComponents/ProjectsAll";
+import StyledProjects from "../components/projectsPageComponents/StyledProjects";
 import Projects from "../components/projectsPageComponents/Projects";
 import Push from "../components/Push";
 
@@ -9,9 +9,9 @@ const ProjectsPage = () => {
     <Wrapper>
       <div className="main-content-wrapper projects-wrapper">
         <SectionHeadline>Prosjekter</SectionHeadline>
-        <ProjectsAll>
+        <StyledProjects>
           <Projects></Projects>
-        </ProjectsAll>
+        </StyledProjects>
       </div>
       <Push></Push>
     </Wrapper>
