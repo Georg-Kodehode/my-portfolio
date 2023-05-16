@@ -17,6 +17,12 @@ const StyledHeader = styled.header`
     justify-content: space-between;
   }
 
+  .logo{
+    font-size: 2.25rem;
+    text-decoration: none;
+    color: #dff6ff;
+  }
+
   .styled-ul{
     margin: 0;
     padding: 0;

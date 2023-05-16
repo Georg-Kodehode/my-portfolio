@@ -47,6 +47,16 @@ const StyledFooter = styled.footer`
       color: #47b5ff;
     }
   }
+  //####
+  .align-footer:hover img,
+  .align-footer:focus img {
+    fill: #47b5ff;
+  }
+  .align-footer:hover a,
+  .align-footer:focus a {
+    color: #47b5ff;
+  }
+  //####
 
   .contact-separator{
     margin-top: 1.0625rem;

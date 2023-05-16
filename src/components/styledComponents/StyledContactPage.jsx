@@ -14,6 +14,7 @@ const StyledContactPage = styled.div`
     box-sizing: border-box;
     padding: 1rem;
     border: 5px solid #47b5ff;
+    border-radius: 10px;
   }
   .contact-info-div .contact-links-wrapper {
     display: flex;

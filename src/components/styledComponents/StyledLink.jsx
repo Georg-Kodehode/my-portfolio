@@ -12,6 +12,7 @@ const StyledLink = styled.a`
   font-size: 1rem;
   box-sizing: border-box;
   border: 3px solid #ffffff;
+  border-radius: 10px;
   margin-right: 0.3125rem;
   text-decoration: none;
   &:hover,
