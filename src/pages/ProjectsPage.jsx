@@ -1,7 +1,7 @@
-import SectionHeadline from "../components/SectionHeadline";
-import Wrapper from "../components/Wrapper";
-import StyledProjects from "../components/projectsPageComponents/StyledProjects";
-import Projects from "../components/projectsPageComponents/Projects";
+import SectionHeadline from "../components/styledComponents/SectionHeadline";
+import Wrapper from "../components/styledComponents/Wrapper";
+import StyledProjectsPage from "../components/styledComponents/StyledProjectsPage";
+import Projects from "../components/Projects";
 import Push from "../components/Push";
 
 const ProjectsPage = () => {
@@ -9,9 +9,9 @@ const ProjectsPage = () => {
     <Wrapper>
       <div className="main-content-wrapper projects-wrapper">
         <SectionHeadline>Prosjekter</SectionHeadline>
-        <StyledProjects>
+        <StyledProjectsPage>
           <Projects></Projects>
-        </StyledProjects>
+        </StyledProjectsPage>
       </div>
       <Push></Push>
     </Wrapper>

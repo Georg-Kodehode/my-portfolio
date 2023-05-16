@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
-const StyledProjects = styled.div`
+const StyledProjectsPage = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 1rem;
 
-  .project-single{
+  .project-single {
     width: 31.875rem;
   }
   .project-single img {
@@ -16,7 +16,7 @@ const StyledProjects = styled.div`
     border-radius: 10px;
   }
 
-  .project-heading{
+  .project-heading {
     text-align: left;
     font-weight: 400;
     font-size: 1.5rem;
@@ -29,12 +29,12 @@ const StyledProjects = styled.div`
     }
   }
 
-  .project-box{
+  .project-box {
     width: 31.875rem;
     height: 18.125rem;
   }
 
-  .project-description{
+  .project-description {
     width: 100%;
     height: 100px;
     background-color: #06283d;
@@ -51,14 +51,14 @@ const StyledProjects = styled.div`
     border-radius: 10px;
   }
 
-  .project-links-wrapper{
+  .project-links-wrapper {
     width: 100%;
     display: flex;
     padding: 0.3125rem 0 0 0;
   }
 
   @media only screen and (max-width: 530px) {
-    .project-single{
+    .project-single {
       width: 21.875rem;
     }
     .project-box,
@@ -66,10 +66,10 @@ const StyledProjects = styled.div`
       width: 21.875rem;
       height: 12.4375rem;
     }
-    .project-links-wrapper{
+    .project-links-wrapper {
       height: 6.375rem;
     }
   }
 `;
 
-export default StyledProjects;
+export default StyledProjectsPage;

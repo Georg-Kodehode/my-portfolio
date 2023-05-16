@@ -1,4 +1,4 @@
-import StyledFrontPage from "../components/frontPageComponents/StyledFrontPage";
+import StyledFrontPage from "../components/styledComponents/StyledFrontPage";
 import Push from "../components/Push";
 
 const FrontPage = () => {

@@ -8,13 +8,14 @@ const StyledSkillsPage = styled.div`
   color: #47b5ff;
   padding: 2.5rem;
   border: 5px solid #47b5ff;
-  
-  .skill-list{
+  border-radius: 10px;
+
+  .skill-list {
     text-align: left;
     margin: 0 0 0 3.125rem;
   }
 
-  .skills-category{
+  .skills-category {
     text-align: left;
     margin: 0.5625rem 0;
   }
