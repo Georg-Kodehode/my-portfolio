@@ -6,8 +6,10 @@ import movieWatchlist from "../images/movie_watchlist.png";
 import parallaxSite from "../images/parallax_site.png";
 import passwordGenerator from "../images/password_generator.png";
 import pokedex from "../images/pokedex.png";
-import travelJournal from "../images/travel_journal.png";
+import quizzical from "../images/quizzical.png";
 import solarSystemSite from "../images/solar_system_site.png";
+import techyon from "../images/techyon.png";
+import travelJournal from "../images/travel_journal.png";
 
 import figmaStreamingSite from "../images/figma_streaming_site.png";
 import figmaTripletexSite from "../images/figma_tripletex_site.png";
@@ -21,7 +23,9 @@ const ProjectImages = {
   parallaxSite: parallaxSite,
   passwordGenerator: passwordGenerator,
   pokedex: pokedex,
+  quizzical: quizzical,
   solarSystemSite: solarSystemSite,
+  techyon: techyon,
   travelJournal: travelJournal,
   figmaStreamingSite: figmaStreamingSite,
   figmaTripletexSite: figmaTripletexSite,

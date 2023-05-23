@@ -1,8 +1,9 @@
+import { nanoid } from "nanoid";
 import ProjectImages from "./ProjectImages";
 
 const ProjectData = [
   {
-    key: 0,
+    key: nanoid(10),
     name: "Caesar chiffer løser",
     image: ProjectImages.caesarCipher,
     githubLink: "https://github.com/Georg-Kodehode/caesar-cipher-solver",
@@ -10,7 +11,7 @@ const ProjectData = [
     description: "En applikasjon som lar brukeren dekode og enkode tekst.",
   },
   {
-    key: 1,
+    key: nanoid(10),
     name: "Digitalt visittkort",
     image: ProjectImages.digitalBusinessCard,
     githubLink: "https://github.com/Georg-Kodehode/digital-business-card",
@@ -18,7 +19,7 @@ const ProjectData = [
     description: "Et digitalt visittkort.",
   },
   {
-    key: 2,
+    key: nanoid(10),
     name: "Fargepalett generator",
     image: ProjectImages.colorSchemeGenerator,
     githubLink: "https://github.com/Georg-Kodehode/color-scheme-generator",
@@ -26,7 +27,7 @@ const ProjectData = [
     description: "Generer en fargepalett basert på en farge valgt av brukeren.",
   },
   {
-    key: 3,
+    key: nanoid(10),
     name: "Film watchlist",
     image: ProjectImages.movieWatchlist,
     githubLink: "https://github.com/Georg-Kodehode/movie-watchlist",
@@ -35,7 +36,7 @@ const ProjectData = [
       "En watchlist for filmer, serier og spill, som bruker local storage.",
   },
   {
-    key: 4,
+    key: nanoid(10),
     name: "Juleside",
     image: ProjectImages.countdownToChristmas,
     githubLink: "https://github.com/Georg-Kodehode/countdown-to-christmas",
@@ -44,7 +45,7 @@ const ProjectData = [
       "En jule-nettside som teller ned til jul. Nettsiden lar også brukeren skrive julehilsener som lagres i local storage.",
   },
   {
-    key: 5,
+    key: nanoid(10),
     name: "Parallax nettside",
     image: ProjectImages.parallaxSite,
     githubLink:
@@ -54,7 +55,7 @@ const ProjectData = [
     description: "En parallax nettside.",
   },
   {
-    key: 6,
+    key: nanoid(10),
     name: "Passordgenerator",
     image: ProjectImages.passwordGenerator,
     githubLink: "https://github.com/Georg-Kodehode/password-generator",
@@ -63,7 +64,7 @@ const ProjectData = [
       "En applikasjon som genererer passord på minimum 15 tegn. Passordet må inkludere tall og spesialtegn.",
   },
   {
-    key: 7,
+    key: nanoid(10),
     name: "Pokédex",
     image: ProjectImages.pokedex,
     githubLink: "https://github.com/Georg-Kodehode/pokedex",
@@ -72,7 +73,15 @@ const ProjectData = [
       "En Pokédex som lister opp alle Pokémon som finnes i pokeapi API-en, og lar deg søke etter Pokémon.",
   },
   {
-    key: 8,
+    key: nanoid(10),
+    name: "Quiz app",
+    image: ProjectImages.quizzical,
+    githubLink: "https://github.com/Georg-Kodehode/quizzical-app",
+    siteLink: "https://georg-kodehode.github.io/quizzical-app/",
+    description: "En quiz app som henter spørsmål fra Open Trivia DB API.",
+  },
+  {
+    key: nanoid(10),
     name: "Reisedagbok",
     image: ProjectImages.travelJournal,
     githubLink: "https://github.com/Georg-Kodehode/travel-journal",
@@ -80,7 +89,7 @@ const ProjectData = [
     description: "En reisedagbok nettside.",
   },
   {
-    key: 9,
+    key: nanoid(10),
     name: "Solsystem nettside",
     image: ProjectImages.solarSystemSite,
     githubLink: "https://github.com/Georg-Kodehode/hoestoppgave-haugesund-c",
@@ -89,7 +98,16 @@ const ProjectData = [
       "En gruppeoppgave der vi brukte en API til å lage en nettside om solsystemet.",
   },
   {
-    key: 10,
+    key: nanoid(10),
+    name: "Strømmåler UI",
+    image: ProjectImages.techyon,
+    githubLink: "https://github.com/Georg-Kodehode/techyon-ui-time-series",
+    siteLink: "https://georg-kodehode.github.io/techyon-ui-time-series/",
+    description:
+      "Et UI for strømmålere, der en bruker kan få oversikt over sine strømmålere. Oppgave gitt av bedrift.",
+  },
+  {
+    key: nanoid(10),
     name: "Figma - streaming nettside",
     image: ProjectImages.figmaStreamingSite,
     githubLink: "",
@@ -101,7 +119,7 @@ const ProjectData = [
       "En enkel versjon av Netflix gjenskapt i Figma. Figmasiden inkluderer tre carousel-er og en dropdown meny",
   },
   {
-    key: 11,
+    key: nanoid(10),
     name: "Figma - Tripletex nettside",
     image: ProjectImages.figmaTripletexSite,
     githubLink: "",
