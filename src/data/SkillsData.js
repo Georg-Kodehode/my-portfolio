@@ -35,7 +35,7 @@ const SkillsData = [
     key: 6,
     skillsCategory: "Sertifiseringer:",
     skillList:
-      "Kodehode - kurs arrangert av JobLoop, Førerkort klasse B, Kompetansebevis truck T1, T4",
+      "Kodehode - kurs arrangert av JobLoop, The Frontend Developer Career Path - Scrimba sertifisering, Førerkort klasse B, Kompetansebevis truck T1, T4",
   },
   {
     key: 7,
