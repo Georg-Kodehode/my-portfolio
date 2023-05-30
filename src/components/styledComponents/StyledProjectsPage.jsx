@@ -42,8 +42,6 @@ const StyledProjectsPage = styled.div`
     letter-spacing: 1.4px;
     line-height: 1.6;
     font-size: 15px;
-    overflow: scroll;
-    overflow-x: hidden;
     margin: 8px 0 0 0;
     box-sizing: border-box;
     padding: 5px 15px;
@@ -68,6 +66,9 @@ const StyledProjectsPage = styled.div`
     }
     .project-links-wrapper {
       height: 6.375rem;
+    }
+    .project-description {
+      overflow-y: scroll;
     }
   }
 `;
