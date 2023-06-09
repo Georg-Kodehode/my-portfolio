@@ -3,11 +3,11 @@ const SkillsData = [
     key: 0,
     skillsCategory: "Programmering / utvikling / web:",
     skillList:
-      "HTML, CSS, JavaScript, Python, TypeScript, Golang, Java, SQL, Node.js, JSON, NPM, Vite, AJAX, OOP, Mobile First Design, Responsive Design, Netlify",
+      "HTML, CSS, JavaScript, Python, TypeScript, Go, Java, SQL, Node.js, JSON, npm, Vite, AJAX, OOP, Mobile First Design, Responsive Design, Netlify",
   },
   {
     key: 1,
-    skillsCategory: "Rammeverk:",
+    skillsCategory: "Rammeverk og biblioteker:",
     skillList: "React, Express.js, Vue.js, Flask, Bootstrap, jQuery",
   },
   {
