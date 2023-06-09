@@ -34,8 +34,16 @@ const SkillsData = [
   {
     key: 6,
     skillsCategory: "Sertifiseringer:",
-    skillList:
-      "Kodehode - kurs arrangert av JobLoop, The Frontend Developer Career Path - Scrimba sertifisering, Førerkort klasse B, Kompetansebevis truck T1, T4",
+    skillList: (
+      <>
+        AMO - IT UTVIKLER - Jobloop <br />
+        The Frontend Developer Career Path - Scrimba <br />
+        NSM grunnprinsipper for IKT-sikkerhet - Nasjonal sikkerhetsmyndighet
+        <br />
+        Førerkort klasse B <br />
+        Kompetansebevis truck T1, T4
+      </>
+    ),
   },
   {
     key: 7,

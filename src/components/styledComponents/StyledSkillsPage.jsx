@@ -13,6 +13,7 @@ const StyledSkillsPage = styled.div`
   .skill-list {
     text-align: left;
     margin: 0 0 0 3.125rem;
+    line-height: 1.5rem;
   }
 
   .skills-category {
@@ -26,6 +27,9 @@ const StyledSkillsPage = styled.div`
       margin: 0 0 0 1.5rem;
     }
     overflow: scroll;
+    .skill-list {
+      margin: 0;
+    }
   }
   @media only screen and (max-width: 445px) {
     h1 {
