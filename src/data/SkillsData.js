@@ -36,12 +36,18 @@ const SkillsData = [
     skillsCategory: "Sertifiseringer:",
     skillList: (
       <>
-        AMO - IT UTVIKLER - Jobloop <br />
-        The Frontend Developer Career Path - Scrimba <br />
-        NSM grunnprinsipper for IKT-sikkerhet - Nasjonal sikkerhetsmyndighet
+        - AMO - IT UTVIKLER - JobLoop <br />
+        - The Frontend Developer Career Path - Scrimba <br />
+        - NSM grunnprinsipper for IKT-sikkerhet - Nasjonal sikkerhetsmyndighet
         <br />
-        Førerkort klasse B <br />
-        Kompetansebevis truck T1, T4
+        - CCNA Routing and Switching: Scaling Networks - Cisco Networking
+        Academy
+        <br />
+        - CCNA Routing and Switching: Routing and Switching Essentials - Cisco
+        Networking Academy <br />
+        - CCNA Routing and Switching: Introduction to Networks - Cisco
+        Networking Academy <br />
+        - Førerkort klasse B <br />- Kompetansebevis truck T1, T4
       </>
     ),
   },
