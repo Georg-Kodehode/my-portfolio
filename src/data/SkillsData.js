@@ -18,7 +18,7 @@ const SkillsData = [
   {
     key: 3,
     skillsCategory: "Databaser:",
-    skillList: "MongoDB, Mongoose, arbeid med REST API-er",
+    skillList: "MongoDB, Mongoose, MS SQL, arbeid med REST API-er",
   },
   {
     key: 4,
